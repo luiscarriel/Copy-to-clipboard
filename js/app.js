@@ -6,6 +6,5 @@ function copy(){
     textArea.select()
     textArea.setSelectionRange(0, 99999)
     document.execCommand("copy");
-    
-    result.innerHTML = `${ textArea.value}`
+    result.innerHTML = ` Copiado: ${ textArea.value}`
 };
